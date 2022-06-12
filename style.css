@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+body {
+  min-height: 3000px;
+  /* background-color: black; */
+  max-width: 3000px;
+  min-width: none;
+}
+.navbar-brand {
+  font-family: "Carter One", cursive;
+}
+.card-body {
+  color: #000000;
+}
+.navbar-expand-lg {
+  background-color: black;
+}
+#home {
+  color: #ffffff;
+  overflow: hidden;
+  background-position: center;
+}
+#about {
+  background-color: black;
+}
+.text-about {
+  text-align: justify;
+}
+#portofolio {
+  background-color: black;
+}
+#contact {
+  background-color: #ffffff;
+  color: #000000;
+}
+#skills {
+  background-color: #ffffff;
+}
+.bg-cover {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-tabs .nav-item {
+  width: calc(100% / 5);
+}
+.nav-tabs .nav-link {
+  width: calc(100%);
+  text-align: center;
+}
